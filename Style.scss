@@ -181,11 +181,11 @@ p {
 
 .people {
   float: left;
-  height: 300px;
   width: 20%;
   background: #ccc;
   ul {
     list-style-type: none;
+    list-style: upper-latin;
   }
   a {
     display:block;
@@ -200,12 +200,10 @@ p {
     color: chocolate;;
   }
 }
-
 article {
   float: right;
   width: 80%;
   background-color: #f1f1f1;
-  height: 300px; /* only for demonstration, should be removed */
 }
 
 /* Clear floats after the columns */
